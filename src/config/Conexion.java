@@ -15,7 +15,7 @@ public class Conexion {
             e.printStackTrace();
         }
         try {
-            String URL="jdbc:mysql://localhost:3306/formulario";
+            String URL="jdbc:mysql://localhost:3306/hoja_de_vida_db";
             conexion=DriverManager.getConnection(URL,"root","");
         } catch (SQLException e) {
             e.printStackTrace();
